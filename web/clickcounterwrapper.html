@@ -1,0 +1,14 @@
+<link rel="import" href="clickcounter.html" />
+<polymer-element name="click-counter-wrapper">
+  <template>
+    <template if="{{ test == 'go' }}">
+      our first click-counter:
+      <click-counter count="3"></click-counter>
+    </template>
+    <br /><br />
+    our second click-counter:
+    <click-counter count="6"></click-counter>
+  </template>
+  <script type="application/dart" src="clickcounterwrapper.dart"></script>
+</polymer-element>
+
